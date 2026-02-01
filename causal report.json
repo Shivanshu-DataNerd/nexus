@@ -1,0 +1,53 @@
+{
+  "incident_id": "github-2025-09-16 03:00:00-0",
+  "generated_at": "2025-09-19T11:40:19.196188Z",
+  "window": {
+    "start": "2025-09-16 03:00:00",
+    "end": "2025-09-16 04:00:00"
+  },
+  "ranked_candidates": [
+    {
+      "candidate": "github_avg_latency_millions",
+      "best_lag": 3,
+      "p_value": 0.002469565713574536,
+      "p_value_corrected": 0.009878262854298143,
+      "fstat": 5.544123219545365,
+      "is_significant": true,
+      "dowhy": null,
+      "evidence_files": [
+        "/tmp/causal_evidence_github-2025-09-16 03:00:00-0/evidence_github-2025-09-16 03:00:00-0_github_avg_latency_millions_ts.png",
+        "/tmp/causal_evidence_github-2025-09-16 03:00:00-0/evidence_github-2025-09-16 03:00:00-0_github_avg_latency_millions_xcorr.png"
+      ]
+    },
+    {
+      "candidate": "github_error_rate",
+      "best_lag": null,
+      "p_value": 1,
+      "p_value_corrected": 1,
+      "fstat": 0,
+      "is_significant": false,
+      "dowhy": null,
+      "evidence_files": []
+    },
+    {
+      "candidate": "noaa_cnt",
+      "best_lag": null,
+      "p_value": 1,
+      "p_value_corrected": 1,
+      "fstat": 0,
+      "is_significant": false,
+      "dowhy": null,
+      "evidence_files": []
+    },
+    {
+      "candidate": "noaa_avg_latency_millions",
+      "best_lag": null,
+      "p_value": 1,
+      "p_value_corrected": 1,
+      "fstat": 0,
+      "is_significant": false,
+      "dowhy": null,
+      "evidence_files": []
+    }
+  ]
+}
